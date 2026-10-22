@@ -20,3 +20,9 @@
 !/scripts/*.py
 !/qa/
 !/qa/full-edit-browser-server.py
+!/docs/
+!/docs/images/
+!/docs/images/service-overview.jpg
+!/docs/images/service-editor.jpg
+!/docs/images/appearance-settings.jpg
+!/docs/images/recycle-data-selection.jpg
