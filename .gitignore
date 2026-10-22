@@ -1,0 +1,22 @@
+# Publish an explicit source allowlist. Local state is private by default.
+*
+!/.gitignore
+!/README.md
+!/THIRD_PARTY_NOTICES.md
+!/*.py
+!/ui/
+!/ui/app.js
+!/ui/index.html
+!/ui/style.css
+!/ui/assets/
+!/ui/assets/logo.png
+!/ui/assets/icons/
+!/ui/assets/icons/**
+!/LICENSES/
+!/LICENSES/*.txt
+!/examples/
+!/examples/*.json
+!/scripts/
+!/scripts/*.py
+!/qa/
+!/qa/full-edit-browser-server.py

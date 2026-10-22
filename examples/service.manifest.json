@@ -1,0 +1,16 @@
+{
+  "id": "local-example-web",
+  "title": "示例网页服务",
+  "description": "已安装网页服务的登记示例",
+  "kind": "process",
+  "group": "开发工具",
+  "directory": "/absolute/path/to/your/project",
+  "start": ["/usr/bin/python3", "-m", "http.server", "8080"],
+  "port": 8080,
+  "process_tokens": ["http.server", "8080"],
+  "url": "http://127.0.0.1:8080/",
+  "health": "http://127.0.0.1:8080/",
+  "help": "先修改项目目录，确保这是原部署的启动命令，再通过 register-service.py 登记或在网页中填写。登记不会自动启动。",
+  "uninstall": "该示例只提供启停管理，不提供自动卸载。",
+  "icon": "default"
+}
